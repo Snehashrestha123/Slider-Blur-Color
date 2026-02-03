@@ -1,0 +1,33 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+body {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls label {
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  transition: all 0.2s ease;
+  max-width: 800px;
+}
